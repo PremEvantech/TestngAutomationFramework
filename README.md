@@ -71,7 +71,7 @@ Before running tests, ensure the following are installed:
 
 | Tool                         | Version     | Description                           |
 | ---------------------------- | ----------- | ------------------------------------- |
-| **Java JDK**                 | 11 or above | Required to compile and run Java code |
+| **Java JDK**                 | 17 or above | Required to compile and run Java code |
 | **Maven**                    | 3.8+        | Dependency management and build tool  |
 | **TestNG**                   | Latest      | Testing framework                     |
 | **Allure CLI** *(optional)*  | Latest      | For report generation                 |
