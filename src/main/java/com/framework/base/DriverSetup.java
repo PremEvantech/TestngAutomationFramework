@@ -22,6 +22,9 @@ public class DriverSetup {
 					chromeOptions.addArguments("--headless=new");
 					chromeOptions.addArguments("--window-size=1920,1080");
 					chromeOptions.addArguments("--disable-gpu");
+					chromeOptions.addArguments("--disable-popup-blocking");
+					chromeOptions.addArguments("--disable-notifications");
+					chromeOptions.addArguments("--disable-infobars")
 					driver.set(new ChromeDriver(chromeOptions));
 				} else {
 					driver.set(new ChromeDriver());
@@ -34,6 +37,9 @@ public class DriverSetup {
 					edgeOptions.addArguments("--headless=new");
 					edgeOptions.addArguments("--window-size=1920,1080");
 					edgeOptions.addArguments("--disable-gpu");
+					edgeOptions.addArguments("--disable-popup-blocking");
+					edgeOptions.addArguments("--disable-notifications");
+					edgeOptions.addArguments("--disable-infobars")
 					driver.set(new EdgeDriver(edgeOptions));
 				} else {
 					driver.set(new EdgeDriver());
